@@ -1,0 +1,15 @@
+.after{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.before{
+    left: -103px;
+    bottom: -75px;
+    transform: scale(0);
+    position: absolute;
+    transition: 0.3s;
+}
