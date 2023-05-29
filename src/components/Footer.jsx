@@ -55,9 +55,13 @@ const Footer = () => {
         <div className="flex flex-col gap-3">
           <h4>Newsletter</h4>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, dignissimos.</p>
+
           <div className="relative w-full">
             <input type="search" name="" id="" className='border-2 border-slate-800 rounded-md p-2 bg-slate-800 text-slate-200' placeholder='enter your mail' />
-            <button className='text-slate-50 absolute right-[109px] top-[50%] translate-y-[-50%] block'><TbSend className='w-full h-full inline-block text-stone-50' /></button>
+
+            <button className='text-slate-50 absolute right-[-18px] md:right-[-27px] lg:right-[99px] top-[50%] translate-y-[-50%] block'>
+              <TbSend className='w-full h-full inline-block text-stone-50' />
+            </button>
           </div>
 
           <div className="flex gap-3">
