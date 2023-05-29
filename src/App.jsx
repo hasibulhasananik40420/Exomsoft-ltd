@@ -6,7 +6,6 @@ import KeyFeatures from "./components/KeyFeatures/KeyFeatures";
 import OurWorkingProcess from "./components/OurWorkingProcess/OurWorkingProcess";
 import Faq from "./components/Faq/Faq";
 import TeamMember from "./components/TeamMember/TeamMember";
-import Footer from "./components/Footer";
 
 function App() {
   return <Root>
@@ -17,7 +16,7 @@ function App() {
     <TeamMember/>
     <OurWorkingProcess/>
     <Faq/>
-    <Footer/>
+   
   
   </Root>;
 }

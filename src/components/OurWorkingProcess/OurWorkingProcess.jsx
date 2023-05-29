@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { LuHeartHandshake } from 'react-icons/lu';
+// import { LuHeartHandshake } from 'react-icons/lu';
 import { MdOutlineArrowRightAlt } from 'react-icons/md';
 
 const OurWorkingProcess = () => {
@@ -10,7 +10,7 @@ const OurWorkingProcess = () => {
 
         <div className="w-full lg:w-[35%] flex flex-col justify-center items-center gap-8 pt-0 lg:pt-[200px] md:pt-[150px]">
           <div className="bg-gray-800 w-3/4 p-10 flex flex-col gap-4">
-            <span><LuHeartHandshake className='text-5xl' /></span>
+            {/* <span><LuHeartHandshake className='text-5xl' /></span> */}
             <h1 className='font-bold text-2xl'>UI/UX DESIGN</h1>
             <p className='text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde modi atque dolor similique dolores hic consequatur maiores, voluptatum iste laboriosam?</p>
             <div className="flex items-center">
@@ -19,7 +19,7 @@ const OurWorkingProcess = () => {
             </div>
           </div>
           <div className="bg-gray-800 w-3/4 p-10 flex flex-col gap-4">
-            <span><LuHeartHandshake className='text-5xl' /></span>
+            {/* <span><LuHeartHandshake className='text-5xl' /></span> */}
             <h1 className='font-bold text-2xl'>UI/UX DESIGN</h1>
             <p className='text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde modi atque dolor similique dolores hic consequatur maiores, voluptatum iste laboriosam?</p>
             <div className="flex items-center">
@@ -39,7 +39,7 @@ const OurWorkingProcess = () => {
 
         <div className="w-full lg:w-[35%] flex flex-col justify-center items-center gap-8">
           <div className="bg-gray-800 w-3/4 p-10 flex flex-col gap-4">
-            <span><LuHeartHandshake className='text-5xl' /></span>
+            {/* <span><LuHeartHandshake className='text-5xl' /></span> */}
             <h1 className='font-bold text-2xl'>UI/UX DESIGN</h1>
             <p className='text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde modi atque dolor similique dolores hic consequatur maiores, voluptatum iste laboriosam?</p>
             <div className="flex items-center">
@@ -48,7 +48,7 @@ const OurWorkingProcess = () => {
             </div>
           </div>
           <div className="bg-gray-800 w-3/4 p-10 flex flex-col gap-4">
-            <span><LuHeartHandshake className='text-5xl' /></span>
+            {/* <span><LuHeartHandshake className='text-5xl' /></span> */}
             <h1 className='font-bold text-2xl'>UI/UX DESIGN</h1>
             <p className='text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde modi atque dolor similique dolores hic consequatur maiores, voluptatum iste laboriosam?</p>
             <div className="flex items-center">
