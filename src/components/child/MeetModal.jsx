@@ -29,11 +29,14 @@ const MeetModal = ({ actions }) => {
       <Dialog
         header="Book a Schedule"
         visible={visible}
-        style={{ width: "40vw" }}
+        style={{
+          width: "80vw",  // Default width for medium-sized devices
+          
+        }}
         onHide={() => setVisible(false)}
       >
         <div className="p-4 border rounded-md">
-          <div className="flex justify-center gap-4 my-6">
+          <div className="flex  flex-col md:flex-row justify-center gap-4 my-6">
             <Dropdown
               value={selectedOption}
               options={options}

@@ -5,7 +5,7 @@ const FeaturesCard = ({ feature }) => {
     const { serviceName, serviceDetails, img } = feature
     console.log(tf);
     return (
-        <div onMouseEnter={() => setTf(false)} onMouseLeave={() => setTf(true)} className='bg-indigo-100 cursor-pointer p-8 rounded-xl relative'>
+        <div onMouseEnter={() => setTf(false)} onMouseLeave={() => setTf(true)} className='bg-[#f3f6fc] cursor-pointer p-8 rounded-xl relative'>
             <div className={`absolute ${tf ? 'left-10 duration-150 scale-90' : 'left-40 duration-700 scale-110'}`}>
                 {img}
             </div>

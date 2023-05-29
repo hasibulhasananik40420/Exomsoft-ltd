@@ -8,7 +8,7 @@ const Header = () => {
   const [processvisible ,setProcessvisible ] = useState(false)
   return (
   
-     <div className="bg-[url('https://www.simscale.com/wp-content/uploads/2023/01/wave-transparent-background.png')] bg-cover  w-full min-h-[100vh]  flex items-center max-h-screen py-16  bg-no-repeat bg-right-top">
+     <div className="bg-[url('https://i.ibb.co/th4q8g5/bgpill.png')] bg-cover  w-full h-[100vh]  flex items-center  max-h-[1000px] py-16  bg-no-repeat bg-right-top bg-[#f3f6fc]">
       <div className="max-w-[1440px] w-full mx-auto p-4  flex flex-between items-center ">
         {/* Content */}
 
