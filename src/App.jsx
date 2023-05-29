@@ -14,9 +14,9 @@ function App() {
     <Header/>
     <Services/>
     <KeyFeatures/>
+    <TeamMember/>
     <OurWorkingProcess/>
     <Faq/>
-    <TeamMember/>
     <Footer/>
   
   </Root>;
