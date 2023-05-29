@@ -1,14 +1,16 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
-const Root = ({children}) => {
+const Root = ({ children }) => {
   return (
     <div>
-       <Navbar/>
-        {children}
-        <Footer/>
-        
+      <Navbar />
+      {children}
+      <Footer />
+
     </div>
   )
 }
