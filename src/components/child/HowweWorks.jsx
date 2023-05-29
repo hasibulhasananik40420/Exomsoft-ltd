@@ -9,7 +9,7 @@ const HowweWorks = ({ actions }) => {
     <Dialog
       header="How We Works?"
       visible={processvisible}
-      style={{ width: "40vw" }}
+      style={{ width: "80vw" }}
       onHide={() => setProcessvisible(false)}
     >
       <div className="p-4  rounded-md">
