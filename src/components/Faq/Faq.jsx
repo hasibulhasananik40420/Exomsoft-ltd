@@ -11,7 +11,7 @@ const Faq = () => {
 
     return (
         <div className='bg-gray-50 '>
-            <div className='pt-12 mb-24 container mx-auto  p-4'>
+            <div className='pt-12 mb-24 max-w-[1440px] mx-auto px-6'>
                 <div className='grid lg:grid-cols-2 py-10'>
                     <div className='pl-2 grid items-center'>
                         <div>

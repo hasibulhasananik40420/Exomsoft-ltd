@@ -58,7 +58,7 @@ const KeyFeatures = () => {
 
 
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-[1440px] mx-auto px-4">
       <h3 className="text-center mt-14 text-3xl font-semibold text-cyan-600">Our Key Features</h3>
       <p className="text-center mt-1 mb-10 text-lg ">what is the spaciality of our features</p>
       <div className="p-4  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-14
