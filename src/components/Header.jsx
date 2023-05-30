@@ -9,10 +9,20 @@ const Header = () => {
   return (
   
      <div className="bg-[url('https://i.ibb.co/th4q8g5/bgpill.png')] bg-cover  w-full h-[100vh]  flex items-center  max-h-[1000px] py-16  bg-no-repeat bg-right-top bg-[#f3f6fc]">
-      <div className="max-w-[1440px] w-full mx-auto p-4  flex flex-between items-center ">
+      <div className="max-w-[1440px] w-full mx-auto p-4  lg:flex lg:flex-row-reverse lg:flex-between lg:items-center ">
         {/* Content */}
 
-        {/* Text */}
+       
+        {/* Animation */}
+        <div className="bg-blck w-full  flex justify-end relative">
+          <img
+            className="!w-[900px] -mr-[90px] "
+            src="https://matlensilver.com/wp-content/uploads/2021/07/IT-Staffing.gif"
+            alt=""
+          />
+        </div>
+
+ {/* Text */}
         <div className="w-full">
           <p className="text-xl mb-2 px-2 bg-gray-100 max-w-max rounded-md text-blue-900 font-bold">
             AxomSoft
@@ -30,14 +40,7 @@ const Header = () => {
             </button>
           </div>
         </div>
-        {/* Animation */}
-        <div className="bg-blck w-full  flex justify-end relative">
-          <img
-            className="!w-[900px] -mr-[90px] "
-            src="https://matlensilver.com/wp-content/uploads/2021/07/IT-Staffing.gif"
-            alt=""
-          />
-        </div>
+
       </div>
       <MeetModal actions={{visible , setVisible}} />
       <HowweWorks actions={{processvisible ,setProcessvisible}}/> 
